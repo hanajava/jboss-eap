@@ -1,0 +1,43 @@
+# --------------------------------------
+# x-powered-by 제거하기
+# 참고 : http://opennaru.tistory.com/76
+# --------------------------------------
+
+/profile=ha/subsystem=web/configuration=jsp-configuration/:write-attribute(name=x-powered-by,value=false)
+
+# --------------------------------------
+# 데이터소스 패스워드 암호화 encrypt.sh 실행해서 반영하기
+# 참고 : http://opennaru.tistory.com/73
+# --------------------------------------
+
+<subsystem xmlns="urn:jboss:domain:security:1.2">
+    <security-domains>
+        <security-domain name="EncryptDBPassword">
+            <authentication>
+                <login-module code="org.picketbox.datasource.security.SecureIdentityLoginModule" flag="required">
+                <module-option name="username" value="데이터베이스_아이디"/>
+                <module-option name="password" value="encrypt.sh_실행한_데이터베이스_패스워드"/>
+                <module-option name="managedConnectionFactoryName" value="jboss.jca:name=데이터소스이름,service=LocalTxCM"/>
+            </login-module>
+            </authentication>
+        </security-domain>
+
+* 데이터소스의 security 부분을 변경하기
+    <security>
+        <!--
+        <user-name>데이터베이스_아이디</user-name>
+        <password>데이터베이스_패스워드</password>
+        -->
+        <security-domain>EncryptDBPassword</security-domain>
+    </security>
+
+# --------------------------------------
+* 도메인 컨트롤러 장애시 호스트 컨트롤러를 도메인 컨트롤러로 만드는 방법
+# --------------------------------------
+
+** KHAN [provisioning]의 호스트 컨트롤러 포트는 19999임
+
+/host=HOST_NAME:write-local-domain-controller
+reload --host=HOST_NAME
+
+** https://access.redhat.com/documentation/en-US/JBoss_Enterprise_Application_Platform/6.3/html/Administration_and_Configuration_Guide/About_Domain_Controller_Failover.html

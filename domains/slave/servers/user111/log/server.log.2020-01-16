@@ -1,0 +1,414 @@
+20:41:39,469 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 37) JBAS011800: Activating Naming Subsystem
+20:41:39,760 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 32) JBAS013171: Activating Security Subsystem
+20:41:41,573 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 21) JBAS015537: Activating WebServices Extension
+20:41:41,651 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+20:41:42,012 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) JBAS010280: Activating Infinispan subsystem.
+20:41:41,807 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 39) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+20:41:43,020 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 49) JBAS016200: Activating ConfigAdmin Subsystem
+20:41:58,619 INFO  [org.jboss.as.naming] (MSC service thread 1-3) JBAS011802: Starting Naming Service
+20:41:58,741 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+20:41:59,874 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+20:42:06,575 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-7) Loaded: apr-1
+20:42:06,682 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-7) Loaded: z
+20:42:06,991 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-7) Loaded: crypto
+20:42:07,272 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-7) Loaded: ssl
+20:42:07,272 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-7) Loading tcnative-1 throws: java.lang.UnsatisfiedLinkError: no tcnative-1 in java.library.path
+20:42:12,804 INFO  [org.apache.catalina.core] (MSC service thread 1-7) JBWEB001065: The native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+20:42:51,283 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/192.168.110.141:8180
+20:42:52,430 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-1) JBWEB003000: Coyote HTTP/1.1 starting on: http-/192.168.110.141:8180
+20:42:52,233 INFO  [org.apache.coyote.ajp] (MSC service thread 1-7) JBWEB003046: Starting Coyote AJP/1.3 on ajp-/192.168.110.141:8109
+20:44:10,585 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on 192.168.110.141:4547
+20:44:12,029 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "session.war" (runtime-name: "session.war")
+20:44:12,029 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "user.war" (runtime-name: "user.war")
+20:44:12,739 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+20:44:23,739 INFO  [org.jboss.web] (ServerService Thread Pool -- 56) JBAS018210: Register web context: 
+20:44:29,206 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 56) '' 컨텍스트에 대해 Mojarra 2.1.28-jbossorg-2 을 초기화하는 중
+20:44:29,268 INFO  [org.infinispan.factories.GlobalComponentRegistry] (ServerService Thread Pool -- 52) ISPN000128: Infinispan version: Infinispan 'Delirium' 5.2.10.Final
+20:44:30,017 INFO  [org.infinispan.factories.TransactionManagerFactory] (ServerService Thread Pool -- 52) ISPN000161: Using a batchMode transaction manager
+20:44:30,081 INFO  [org.infinispan.factories.TransactionManagerFactory] (ServerService Thread Pool -- 51) ISPN000161: Using a batchMode transaction manager
+20:44:42,998 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 56) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+20:44:43,419 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 51) ISPN000031: MBeans were successfully registered to the platform MBean server.
+20:44:43,423 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 52) ISPN000031: MBeans were successfully registered to the platform MBean server.
+20:44:43,657 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 51) JBAS010281: Started local-web cache from web container
+20:44:43,788 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) JBAS010281: Started default-host/session cache from web container
+20:44:46,932 INFO  [org.jboss.web] (ServerService Thread Pool -- 51) JBAS018210: Register web context: /session
+20:44:52,655 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "user.war" (runtime-name : "user.war")
+20:44:52,673 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "session.war" (runtime-name : "session.war")
+20:44:52,885 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 245563ms - Started 253 of 280 services (63 services are lazy, passive or on-demand)
+22:04:29,187 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 56) JBAS013171: Activating Security Subsystem
+22:04:34,616 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 69) JBAS010280: Activating Infinispan subsystem.
+22:04:35,620 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 73) JBAS016200: Activating ConfigAdmin Subsystem
+22:04:37,489 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 52) JBAS015537: Activating WebServices Extension
+22:05:31,707 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 61) JBAS011800: Activating Naming Subsystem
+22:05:39,703 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 63) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+22:05:42,237 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+22:05:56,216 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-7) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+22:06:07,316 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+22:06:07,551 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Bound mail session [java:jboss/mail/Default]
+22:06:24,157 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-5) Loaded: apr-1
+22:06:25,485 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-5) Loaded: z
+22:06:27,610 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-5) Loaded: crypto
+22:06:30,991 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-5) Loaded: ssl
+22:06:31,484 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-5) Loading tcnative-1 throws: java.lang.UnsatisfiedLinkError: no tcnative-1 in java.library.path
+22:06:35,096 INFO  [org.apache.catalina.core] (MSC service thread 1-5) JBWEB001065: The native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22:07:05,394 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/0.0.0.0:8180
+22:07:05,612 INFO  [org.apache.coyote.ajp] (MSC service thread 1-5) JBWEB003046: Starting Coyote AJP/1.3 on ajp-/0.0.0.0:8109
+22:07:05,790 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003000: Coyote HTTP/1.1 starting on: http-/0.0.0.0:8180
+22:07:20,701 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+22:07:22,985 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "user.war" (runtime-name: "user.war")
+22:07:22,983 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015876: Starting deployment of "session.war" (runtime-name: "session.war")
+22:07:25,469 INFO  [org.jboss.as.remoting] (MSC service thread 1-7) JBAS017100: Listening on 0.0.0.0:4547
+22:07:57,892 INFO  [org.jboss.web] (ServerService Thread Pool -- 80) JBAS018210: Register web context: 
+22:08:03,360 INFO  [org.infinispan.factories.GlobalComponentRegistry] (ServerService Thread Pool -- 81) ISPN000128: Infinispan version: Infinispan 'Delirium' 5.2.10.Final
+22:08:05,272 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 80) '' 컨텍스트에 대해 Mojarra 2.1.28-jbossorg-2 을 초기화하는 중
+22:08:06,394 INFO  [org.infinispan.factories.TransactionManagerFactory] (ServerService Thread Pool -- 79) ISPN000161: Using a batchMode transaction manager
+22:08:06,416 INFO  [org.infinispan.factories.TransactionManagerFactory] (ServerService Thread Pool -- 81) ISPN000161: Using a batchMode transaction manager
+22:08:17,949 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 80) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+22:08:20,451 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 81) ISPN000031: MBeans were successfully registered to the platform MBean server.
+22:08:20,490 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 79) ISPN000031: MBeans were successfully registered to the platform MBean server.
+22:08:20,557 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) JBAS010281: Started default-host/session cache from web container
+22:08:20,558 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 81) JBAS010281: Started local-web cache from web container
+22:08:21,988 INFO  [org.jboss.web] (ServerService Thread Pool -- 81) JBAS018210: Register web context: /session
+22:08:27,827 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "user.war" (runtime-name : "user.war")
+22:08:27,828 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "session.war" (runtime-name : "session.war")
+22:08:27,911 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 447826ms - Started 253 of 280 services (63 services are lazy, passive or on-demand)
+22:34:16,622 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+22:34:18,135 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+22:34:18,598 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+22:34:18,640 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	DATE = 20200116_223348
+	SERVER = slave
+	[Server:user111] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	balancer = balancer_user1
+	balancerGroup = G_user1
+	file.encoding = EUC-KR
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /svc/jboss/jboss-eap-6.3/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /usr/java/jdk1.7.0_80/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.7.0_80/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.7.0_80/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_80-b15
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_80
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.80-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = 192.168.110.141
+	jboss.default.jgroups.stack = udp
+	jboss.domain.base.dir = /svc/was/user1/domains/slave
+	jboss.domain.config.dir = /svc/was/user1/domains/slave/configuration
+	jboss.domain.default.config = domain.xml
+	jboss.domain.log.dir = /svc/was/user1/domains/slave/logs
+	jboss.domain.master.address = 192.168.110.141
+	jboss.domain.master.port = 9999
+	jboss.home.dir = /svc/jboss/jboss-eap-6.3
+	jboss.host.default.config = host-slave.xml
+	jboss.host.name = was01
+	jboss.management.native.port = 19999
+	jboss.modules.dir = /svc/jboss/jboss-eap-6.3/modules
+	jboss.node.name = was01
+	jboss.qualified.host.name = was01
+	jboss.server.base.dir = /svc/was/user1/domains/slave/servers/user111
+	jboss.server.config.dir = /svc/was/user1/domains/slave/servers/user111/configuration
+	jboss.server.data.dir = /svc/was/user1/domains/slave/servers/user111/data
+	jboss.server.deploy.dir = /svc/was/user1/domains/slave/servers/user111/data/content
+	jboss.server.log.dir = /svc/was/user1/domains/slave/servers/user111/log
+	jboss.server.name = user111
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /svc/was/user1/domains/slave/servers/user111/tmp
+	jgroups.fileping.location = /share/data/fileping
+	jgroups.tcpgossip.hosts = 192.168.110.141[12001],192.168.110.142[12001],192.168.110.13[12001],192.168.110.14[12001]
+	jgroups.tcpping.initial_hosts = 192.168.110.141[7700],192.168.110.142[7700],192.168.110.13[7700],192.168.110.14[7700],
+	khan.session.cache = KHAN_SESSION_USER
+	line.separator = 
+
+	logging.configuration = file:/svc/was/user1/domains/slave/servers/user111/data/logging.properties
+	module.path = /svc/jboss/jboss-eap-6.3/modules
+	org.apache.catalina.connector.URI_ENCODING = UTF-8
+	org.apache.catalina.connector.USE_BODY_ENCODING_FOR_QUERY_STRING = true
+	org.apache.coyote.ajp.DEFAULT_CONNECTION_TIMEOUT = 60000
+	org.apache.coyote.http11.DEFAULT_CONNECTION_TIMEOUT = 60000
+	org.apache.coyote.http11.Http11Protocol.MAX_HEADER_SIZE = 8192
+	org.apache.coyote.http11.Http11Protocol.SERVER = KHAN
+	org.apache.jasper.compiler.Parser.STRICT_QUOTE_ESCAPING = false
+	org.apache.tomcat.util.http.Parameters.MAX_COUNT = 10000
+	org.jboss.as.logging.per-deployment = false
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-862.el7.x86_64
+	path.separator = :
+	server.type = real
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/java/jdk1.7.0_80/jre/lib/resources.jar:/usr/java/jdk1.7.0_80/jre/lib/rt.jar:/usr/java/jdk1.7.0_80/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_80/jre/lib/jsse.jar:/usr/java/jdk1.7.0_80/jre/lib/jce.jar:/usr/java/jdk1.7.0_80/jre/lib/charsets.jar:/usr/java/jdk1.7.0_80/jre/lib/jfr.jar:/usr/java/jdk1.7.0_80/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.7.0_80/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /svc/jboss/jboss-eap-6.3/jboss-modules.jar -mp /svc/jboss/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = EUC-KR
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 0x7FFFFFFFFFFFFFFE
+	sun.rmi.dgc.server.gcInterval = 0x7FFFFFFFFFFFFFFE
+	user.country = KR
+	user.dir = /svc/jboss/jboss-eap-6.3
+	user.home = /home/jboss
+	user.language = ko
+	user.name = jboss
+	user.timezone = Asia/Seoul
+22:34:18,663 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Server:user111] -XX:PermSize=127m -XX:MaxPermSize=127m -Xms255m -Xmx511m -Xss256k -XX:+PrintGCTimeStamps -XX:+PrintGCDetails -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseCMSCompactAtFullCollection -XX:+ExplicitGCInvokesConcurrent -XX:+HeapDumpOnOutOfMemoryError -Djboss.domain.log.dir=/svc/was/user1/domains/slave/logs -Djboss.domain.master.address=192.168.110.141 -Dsun.jnu.encoding=EUC-KR -Dorg.apache.catalina.connector.URI_ENCODING=UTF-8 -Djava.awt.headless=true -Dsun.rmi.dgc.server.gcInterval=0x7FFFFFFFFFFFFFFE -Djgroups.fileping.location=/share/data/fileping -Dorg.apache.tomcat.util.http.Parameters.MAX_COUNT=10000 -Djboss.domain.default.config=domain.xml -DbalancerGroup=G_user1 -Djava.net.preferIPv4Stack=true -Djboss.default.jgroups.stack=udp -Djboss.domain.base.dir=/svc/was/user1/domains/slave -Djgroups.tcpping.initial_hosts=192.168.110.141[7700],192.168.110.142[7700],192.168.110.13[7700],192.168.110.14[7700], -Djboss.bind.address.management=192.168.110.141 -Dserver.type=real -Dkhan.session.cache=KHAN_SESSION_USER -Dorg.apache.coyote.http11.Http11Protocol.MAX_HEADER_SIZE=8192 -Djboss.home.dir=/svc/jboss/jboss-eap-6.3 -DSERVER=slave -Dfile.encoding=EUC-KR -Djboss.bind.address=0.0.0.0 -Dorg.apache.catalina.connector.USE_BODY_ENCODING_FOR_QUERY_STRING=true -Djboss.management.native.port=19999 -Dsun.rmi.dgc.client.gcInterval=0x7FFFFFFFFFFFFFFE -Dorg.jboss.resolver.warning=true -Djboss.host.default.config=host-slave.xml -Djboss.node.name=was01 -Dorg.apache.coyote.http11.Http11Protocol.SERVER=KHAN -Dorg.apache.coyote.ajp.DEFAULT_CONNECTION_TIMEOUT=60000 -Dorg.apache.jasper.compiler.Parser.STRICT_QUOTE_ESCAPING=false -Dbalancer=balancer_user1 -Dorg.apache.coyote.http11.DEFAULT_CONNECTION_TIMEOUT=60000 -Duser.language=ko -DDATE=20200116_223348 -Duser.country=KR -Dorg.jboss.as.logging.per-deployment=false -Djgroups.tcpgossip.hosts=192.168.110.141[12001],192.168.110.142[12001],192.168.110.13[12001],192.168.110.14[12001] -Djboss.domain.master.port=9999 -Djboss.server.log.dir=/svc/was/user1/domains/slave/servers/user111/log -Djboss.server.temp.dir=/svc/was/user1/domains/slave/servers/user111/tmp -Djboss.server.data.dir=/svc/was/user1/domains/slave/servers/user111/data -Dlogging.configuration=file:/svc/was/user1/domains/slave/servers/user111/data/logging.properties 
+22:34:19,599 INFO  [org.xnio] (MSC service thread 1-6) XNIO Version 3.0.10.GA-redhat-1
+22:34:19,611 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+22:34:19,759 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version (unknown)
+22:34:28,649 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 30) JBAS013171: Activating Security Subsystem
+22:34:29,094 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 11) JBAS015537: Activating WebServices Extension
+22:34:29,134 INFO  [org.jboss.as.security] (MSC service thread 1-2) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+22:34:30,057 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 47) JBAS016200: Activating ConfigAdmin Subsystem
+22:34:30,061 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 43) JBAS010280: Activating Infinispan subsystem.
+22:34:30,098 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 35) JBAS011800: Activating Naming Subsystem
+22:34:30,184 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+22:34:30,814 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+22:34:30,838 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
+22:34:30,839 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) JBAS015400: Bound mail session [java:jboss/mail/Default]
+22:34:30,981 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-7) Loaded: apr-1
+22:34:30,982 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-7) Loaded: z
+22:34:30,987 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-7) Loaded: crypto
+22:34:31,029 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-7) Loaded: ssl
+22:34:31,030 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-7) Loading tcnative-1 throws: java.lang.UnsatisfiedLinkError: no tcnative-1 in java.library.path
+22:34:31,118 INFO  [org.apache.catalina.core] (MSC service thread 1-7) JBWEB001065: The native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22:34:31,877 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/0.0.0.0:8180
+22:34:31,945 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) JBWEB003000: Coyote HTTP/1.1 starting on: http-/0.0.0.0:8180
+22:34:31,953 INFO  [org.apache.coyote.ajp] (MSC service thread 1-8) JBWEB003046: Starting Coyote AJP/1.3 on ajp-/0.0.0.0:8109
+22:34:32,396 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+22:34:32,728 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 0.0.0.0:4547
+22:34:32,733 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "session.war" (runtime-name: "session.war")
+22:34:32,734 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "user.war" (runtime-name: "user.war")
+22:34:34,293 INFO  [org.jboss.web] (ServerService Thread Pool -- 53) JBAS018210: Register web context: 
+22:34:34,667 INFO  [org.infinispan.factories.GlobalComponentRegistry] (ServerService Thread Pool -- 48) ISPN000128: Infinispan version: Infinispan 'Delirium' 5.2.10.Final
+22:34:34,699 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 53) '' 컨텍스트에 대해 Mojarra 2.1.28-jbossorg-2 을 초기화하는 중
+22:34:34,834 INFO  [org.infinispan.factories.TransactionManagerFactory] (ServerService Thread Pool -- 52) ISPN000161: Using a batchMode transaction manager
+22:34:34,865 INFO  [org.infinispan.factories.TransactionManagerFactory] (ServerService Thread Pool -- 48) ISPN000161: Using a batchMode transaction manager
+22:34:35,519 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 53) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+22:34:35,719 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 52) ISPN000031: MBeans were successfully registered to the platform MBean server.
+22:34:35,727 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 48) ISPN000031: MBeans were successfully registered to the platform MBean server.
+22:34:35,729 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) JBAS010281: Started local-web cache from web container
+22:34:35,729 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 48) JBAS010281: Started default-host/session cache from web container
+22:34:35,913 INFO  [org.jboss.web] (ServerService Thread Pool -- 48) JBAS018210: Register web context: /session
+22:34:36,351 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "user.war" (runtime-name : "user.war")
+22:34:36,352 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "session.war" (runtime-name : "session.war")
+22:34:37,287 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 25006ms - Started 253 of 280 services (63 services are lazy, passive or on-demand)
+22:36:53,915 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/0.0.0.0:8180
+22:36:53,916 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-7) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/0.0.0.0:8180
+22:36:53,826 INFO  [org.jboss.web] (ServerService Thread Pool -- 57) JBAS018224: Unregister web context: /session
+22:36:53,976 INFO  [org.apache.coyote.ajp] (MSC service thread 1-1) JBWEB003048: Pausing Coyote AJP/1.3 on ajp-/0.0.0.0:8109
+22:36:53,976 INFO  [org.apache.coyote.ajp] (MSC service thread 1-1) JBWEB003051: Stopping Coyote AJP/1.3 on ajp-/0.0.0.0:8109
+22:36:53,992 INFO  [org.jboss.web] (ServerService Thread Pool -- 58) JBAS018224: Unregister web context: 
+22:36:54,237 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) JBAS010282: Stopped default-host/session cache from web container
+22:36:54,283 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 59) JBAS010282: Stopped local-web cache from web container
+22:36:54,313 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment session.war (runtime-name: session.war) in 2783ms
+22:36:54,313 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment user.war (runtime-name: user.war) in 2788ms
+22:36:54,607 INFO  [org.jboss.as] (MSC service thread 1-1) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 3075ms
+22:38:13,885 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final-redhat-1
+22:38:14,249 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+22:38:14,360 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) starting
+22:38:14,371 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	DATE = 20200116_223348
+	SERVER = slave
+	[Server:user111] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	balancer = balancer_user1
+	balancerGroup = G_user1
+	file.encoding = EUC-KR
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /svc/jboss/jboss-eap-6.3/jboss-modules.jar
+	java.class.version = 51.0
+	java.endorsed.dirs = /usr/java/jdk1.7.0_80/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.7.0_80/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.7.0_80/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.7.0_80-b15
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.7
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.7.0_80
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.7
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 24.80-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bind.address = 0.0.0.0
+	jboss.bind.address.management = 192.168.110.141
+	jboss.default.jgroups.stack = udp
+	jboss.domain.base.dir = /svc/was/user1/domains/slave
+	jboss.domain.config.dir = /svc/was/user1/domains/slave/configuration
+	jboss.domain.default.config = domain.xml
+	jboss.domain.log.dir = /svc/was/user1/domains/slave/logs
+	jboss.domain.master.address = 192.168.110.141
+	jboss.domain.master.port = 9999
+	jboss.home.dir = /svc/jboss/jboss-eap-6.3
+	jboss.host.default.config = host-slave.xml
+	jboss.host.name = was01
+	jboss.management.native.port = 19999
+	jboss.modules.dir = /svc/jboss/jboss-eap-6.3/modules
+	jboss.node.name = was01
+	jboss.qualified.host.name = was01
+	jboss.server.base.dir = /svc/was/user1/domains/slave/servers/user111
+	jboss.server.config.dir = /svc/was/user1/domains/slave/servers/user111/configuration
+	jboss.server.data.dir = /svc/was/user1/domains/slave/servers/user111/data
+	jboss.server.deploy.dir = /svc/was/user1/domains/slave/servers/user111/data/content
+	jboss.server.log.dir = /svc/was/user1/domains/slave/servers/user111/log
+	jboss.server.name = user111
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /svc/was/user1/domains/slave/servers/user111/tmp
+	jgroups.fileping.location = /share/data/fileping
+	jgroups.tcpgossip.hosts = 192.168.110.141[12001],192.168.110.142[12001],192.168.110.13[12001],192.168.110.14[12001]
+	jgroups.tcpping.initial_hosts = 192.168.110.141[7700],192.168.110.142[7700],192.168.110.13[7700],192.168.110.14[7700],
+	khan.session.cache = KHAN_SESSION_USER
+	line.separator = 
+
+	logging.configuration = file:/svc/was/user1/domains/slave/servers/user111/data/logging.properties
+	module.path = /svc/jboss/jboss-eap-6.3/modules
+	org.apache.catalina.connector.URI_ENCODING = UTF-8
+	org.apache.catalina.connector.USE_BODY_ENCODING_FOR_QUERY_STRING = true
+	org.apache.coyote.ajp.DEFAULT_CONNECTION_TIMEOUT = 60000
+	org.apache.coyote.http11.DEFAULT_CONNECTION_TIMEOUT = 60000
+	org.apache.coyote.http11.Http11Protocol.MAX_HEADER_SIZE = 8192
+	org.apache.coyote.http11.Http11Protocol.SERVER = KHAN
+	org.apache.jasper.compiler.Parser.STRICT_QUOTE_ESCAPING = false
+	org.apache.tomcat.util.http.Parameters.MAX_COUNT = 10000
+	org.jboss.as.logging.per-deployment = false
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 3.10.0-862.el7.x86_64
+	path.separator = :
+	server.type = real
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/java/jdk1.7.0_80/jre/lib/resources.jar:/usr/java/jdk1.7.0_80/jre/lib/rt.jar:/usr/java/jdk1.7.0_80/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_80/jre/lib/jsse.jar:/usr/java/jdk1.7.0_80/jre/lib/jce.jar:/usr/java/jdk1.7.0_80/jre/lib/charsets.jar:/usr/java/jdk1.7.0_80/jre/lib/jfr.jar:/usr/java/jdk1.7.0_80/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.7.0_80/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /svc/jboss/jboss-eap-6.3/jboss-modules.jar -mp /svc/jboss/jboss-eap-6.3/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.server
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = EUC-KR
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	sun.rmi.dgc.client.gcInterval = 0x7FFFFFFFFFFFFFFE
+	sun.rmi.dgc.server.gcInterval = 0x7FFFFFFFFFFFFFFE
+	user.country = KR
+	user.dir = /svc/jboss/jboss-eap-6.3
+	user.home = /home/jboss
+	user.language = ko
+	user.name = jboss
+	user.timezone = Asia/Seoul
+22:38:14,375 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Server:user111] -XX:PermSize=127m -XX:MaxPermSize=127m -Xms255m -Xmx511m -Xss256k -XX:+PrintGCTimeStamps -XX:+PrintGCDetails -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSParallelRemarkEnabled -XX:+UseCMSCompactAtFullCollection -XX:+ExplicitGCInvokesConcurrent -XX:+HeapDumpOnOutOfMemoryError -Djboss.domain.log.dir=/svc/was/user1/domains/slave/logs -Djboss.domain.master.address=192.168.110.141 -Dsun.jnu.encoding=EUC-KR -Dorg.apache.catalina.connector.URI_ENCODING=UTF-8 -Djava.awt.headless=true -Dsun.rmi.dgc.server.gcInterval=0x7FFFFFFFFFFFFFFE -Djgroups.fileping.location=/share/data/fileping -Dorg.apache.tomcat.util.http.Parameters.MAX_COUNT=10000 -Djboss.domain.default.config=domain.xml -DbalancerGroup=G_user1 -Djava.net.preferIPv4Stack=true -Djboss.default.jgroups.stack=udp -Djboss.domain.base.dir=/svc/was/user1/domains/slave -Djgroups.tcpping.initial_hosts=192.168.110.141[7700],192.168.110.142[7700],192.168.110.13[7700],192.168.110.14[7700], -Djboss.bind.address.management=192.168.110.141 -Dserver.type=real -Dkhan.session.cache=KHAN_SESSION_USER -Dorg.apache.coyote.http11.Http11Protocol.MAX_HEADER_SIZE=8192 -Djboss.home.dir=/svc/jboss/jboss-eap-6.3 -DSERVER=slave -Dfile.encoding=EUC-KR -Djboss.bind.address=0.0.0.0 -Dorg.apache.catalina.connector.USE_BODY_ENCODING_FOR_QUERY_STRING=true -Djboss.management.native.port=19999 -Dsun.rmi.dgc.client.gcInterval=0x7FFFFFFFFFFFFFFE -Dorg.jboss.resolver.warning=true -Djboss.host.default.config=host-slave.xml -Djboss.node.name=was01 -Dorg.apache.coyote.http11.Http11Protocol.SERVER=KHAN -Dorg.apache.coyote.ajp.DEFAULT_CONNECTION_TIMEOUT=60000 -Dorg.apache.jasper.compiler.Parser.STRICT_QUOTE_ESCAPING=false -Dbalancer=balancer_user1 -Dorg.apache.coyote.http11.DEFAULT_CONNECTION_TIMEOUT=60000 -Duser.language=ko -DDATE=20200116_223348 -Duser.country=KR -Dorg.jboss.as.logging.per-deployment=false -Djgroups.tcpgossip.hosts=192.168.110.141[12001],192.168.110.142[12001],192.168.110.13[12001],192.168.110.14[12001] -Djboss.domain.master.port=9999 -Djboss.server.log.dir=/svc/was/user1/domains/slave/servers/user111/log -Djboss.server.temp.dir=/svc/was/user1/domains/slave/servers/user111/tmp -Djboss.server.data.dir=/svc/was/user1/domains/slave/servers/user111/data -Dlogging.configuration=file:/svc/was/user1/domains/slave/servers/user111/data/logging.properties 
+22:38:14,494 INFO  [org.xnio] (MSC service thread 1-6) XNIO Version 3.0.10.GA-redhat-1
+22:38:14,513 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.0.10.GA-redhat-1
+22:38:14,554 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version (unknown)
+22:38:16,896 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 30) JBAS013171: Activating Security Subsystem
+22:38:16,903 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 20) JBAS015537: Activating WebServices Extension
+22:38:16,926 INFO  [org.jboss.as.security] (MSC service thread 1-6) JBAS013170: Current PicketBox version=4.0.19.SP8-redhat-1
+22:38:16,963 INFO  [org.jboss.as.configadmin] (ServerService Thread Pool -- 47) JBAS016200: Activating ConfigAdmin Subsystem
+22:38:16,964 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 43) JBAS010280: Activating Infinispan subsystem.
+22:38:16,986 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+22:38:16,996 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 35) JBAS011800: Activating Naming Subsystem
+22:38:17,055 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-4) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.26.Final-redhat-1)
+22:38:17,138 INFO  [org.jboss.as.naming] (MSC service thread 1-6) JBAS011802: Starting Naming Service
+22:38:17,139 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Bound mail session [java:jboss/mail/Default]
+22:38:17,658 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-3) Loaded: apr-1
+22:38:17,659 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-3) Loaded: z
+22:38:17,661 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-3) Loaded: crypto
+22:38:17,665 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-3) Loaded: ssl
+22:38:17,679 DEBUG [org.apache.catalina.core.AprLifecycleListener] (MSC service thread 1-3) Loading tcnative-1 throws: java.lang.UnsatisfiedLinkError: no tcnative-1 in java.library.path
+22:38:17,747 INFO  [org.apache.catalina.core] (MSC service thread 1-3) JBWEB001065: The native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22:38:17,997 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/0.0.0.0:8180
+22:38:18,079 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003000: Coyote HTTP/1.1 starting on: http-/0.0.0.0:8180
+22:38:18,100 INFO  [org.apache.coyote.ajp] (MSC service thread 1-6) JBWEB003046: Starting Coyote AJP/1.3 on ajp-/0.0.0.0:8109
+22:38:18,234 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.0.Final-redhat-3
+22:38:18,515 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015876: Starting deployment of "session.war" (runtime-name: "session.war")
+22:38:18,517 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "user.war" (runtime-name: "user.war")
+22:38:18,531 INFO  [org.jboss.as.remoting] (MSC service thread 1-4) JBAS017100: Listening on 0.0.0.0:4547
+22:38:18,928 INFO  [org.jboss.web] (ServerService Thread Pool -- 51) JBAS018210: Register web context: 
+22:38:19,126 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 51) '' 컨텍스트에 대해 Mojarra 2.1.28-jbossorg-2 을 초기화하는 중
+22:38:19,190 INFO  [org.infinispan.factories.GlobalComponentRegistry] (ServerService Thread Pool -- 50) ISPN000128: Infinispan version: Infinispan 'Delirium' 5.2.10.Final
+22:38:19,354 INFO  [org.infinispan.factories.TransactionManagerFactory] (ServerService Thread Pool -- 50) ISPN000161: Using a batchMode transaction manager
+22:38:19,353 INFO  [org.infinispan.factories.TransactionManagerFactory] (ServerService Thread Pool -- 49) ISPN000161: Using a batchMode transaction manager
+22:38:19,591 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 51) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+22:38:19,709 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 49) ISPN000031: MBeans were successfully registered to the platform MBean server.
+22:38:19,714 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 49) JBAS010281: Started default-host/session cache from web container
+22:38:19,715 INFO  [org.infinispan.jmx.CacheJmxRegistration] (ServerService Thread Pool -- 50) ISPN000031: MBeans were successfully registered to the platform MBean server.
+22:38:19,717 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 50) JBAS010281: Started local-web cache from web container
+22:38:19,938 INFO  [org.jboss.web] (ServerService Thread Pool -- 49) JBAS018210: Register web context: /session
+22:38:20,073 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "user.war" (runtime-name : "user.war")
+22:38:20,074 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS018559: Deployed "session.war" (runtime-name : "session.war")
+22:38:20,082 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) started in 6961ms - Started 253 of 280 services (63 services are lazy, passive or on-demand)
+22:44:07,105 INFO  [org.apache.coyote.ajp] (MSC service thread 1-4) JBWEB003048: Pausing Coyote AJP/1.3 on ajp-/0.0.0.0:8109
+22:44:07,119 INFO  [org.apache.coyote.ajp] (MSC service thread 1-4) JBWEB003051: Stopping Coyote AJP/1.3 on ajp-/0.0.0.0:8109
+22:44:07,145 INFO  [org.jboss.web] (ServerService Thread Pool -- 54) JBAS018224: Unregister web context: /session
+22:44:07,150 INFO  [org.jboss.web] (ServerService Thread Pool -- 55) JBAS018224: Unregister web context: 
+22:44:07,152 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/0.0.0.0:8180
+22:44:07,156 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/0.0.0.0:8180
+22:44:07,232 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) JBAS010282: Stopped default-host/session cache from web container
+22:44:07,234 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 67) JBAS010282: Stopped local-web cache from web container
+22:44:07,253 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment session.war (runtime-name: session.war) in 192ms
+22:44:07,255 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015877: Stopped deployment user.war (runtime-name: user.war) in 204ms
+22:44:07,277 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015950: JBoss EAP 6.3.0.GA (AS 7.4.0.Final-redhat-19) stopped in 214ms

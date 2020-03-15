@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<host xmlns="urn:jboss:domain:1.6">
+
+    <management>
+        <security-realms>
+            <security-realm name="ManagementRealm">
+                <server-identities>
+                    <!-- Replace this with either a base64 password of your own, or use a vault with a vault expression -->                    
+                    <secret value="b3Blbm5hcnUhMg==" />
+                </server-identities>
+
+                <authentication>
+                    <local default-user="$local" skip-group-loading="true"/>
+                    <properties path="mgmt-users.properties" relative-to="jboss.domain.config.dir"/>
+                </authentication>
+                <authorization map-groups-to-roles="false">
+                    <properties path="mgmt-groups.properties" relative-to="jboss.domain.config.dir"/>
+                </authorization>                
+            </security-realm>
+            <security-realm name="ApplicationRealm">
+                <authentication>
+                    <local default-user="$local" allowed-users="*" skip-group-loading="true" />
+                    <properties path="application-users.properties" relative-to="jboss.domain.config.dir" />
+                </authentication>
+                <authorization>
+                    <properties path="application-roles.properties" relative-to="jboss.domain.config.dir"/>
+                </authorization>
+            </security-realm>
+        </security-realms>
+        <audit-log>
+            <formatters>
+                <json-formatter name="json-formatter"/>
+            </formatters>
+            <handlers>
+                <file-handler name="host-file" formatter="json-formatter" relative-to="jboss.domain.data.dir" path="audit-log.log"/>
+                <file-handler name="server-file" formatter="json-formatter" relative-to="jboss.server.data.dir" path="audit-log.log"/>
+            </handlers>
+            <logger log-boot="true" log-read-only="false" enabled="false">
+                <handlers>
+                    <handler name="host-file"/>
+                </handlers>
+            </logger>
+            <server-logger log-boot="true" log-read-only="false" enabled="false">
+                <handlers>
+                    <handler name="server-file"/>
+                </handlers>
+            </server-logger>
+        </audit-log>
+        <management-interfaces>
+            <native-interface security-realm="ManagementRealm">
+                <socket interface="management" port="${jboss.management.native.port:9999}"/>
+            </native-interface>
+        </management-interfaces>
+    </management>
+
+    <domain-controller>
+        <remote host="${jboss.domain.master.address}" port="${jboss.domain.master.port:9999}" username="wasadm" security-realm="ManagementRealm"/>
+    </domain-controller>
+
+    <interfaces>
+        <interface name="management">
+            <inet-address value="${jboss.bind.address.management:127.0.0.1}"/>
+        </interface>
+        <interface name="public">
+           <inet-address value="${jboss.bind.address:127.0.0.1}"/>
+        </interface>
+        <interface name="unsecure">
+            <!-- Used for IIOP sockets in the standard configuration.
+                 To secure JacORB you need to setup SSL -->
+            <inet-address value="${jboss.bind.address.unsecure:127.0.0.1}"/>
+        </interface>
+    </interfaces>
+     
+
+    <servers>
+        <server name="user111" group="user1" auto-start="true">
+            <jvm name="default">
+                <jvm-options>
+		            <!-- <option value="-javaagent:/svc/scouter/agent.java/scouter.agent.jar"/>
+                    <option value="-Xbootclasspath/p:/svc/jennifer4.6.1/agent/lwst.jdk.jar:/svc/jennifer4.6.1/agent/lwst.boot.jar:/svc/jennifer4.6.1/agent/jennifer.boot.jar"/>
+                    <option value="-javaagent:/svc/jennifer4.6.1/agent/lwst.javaagent.jar"/>
+                    <option value="-javaagent:/svc/was/user1/domains/khan-agent/khan-agent-1.0.0.jar"/>
+                    <option value="-javaagent:/svc/was/user1/domains/khan-agent/jamm-0.2.5.jar"/> -->
+                    <option value="-Xloggc:/logs/was/user1/slave/user111/gclog/gc_${DATE}.log"/>
+                    <option value="-XX:HeapDumpPath=/logs/was/user1/slave/user111/heapdump"/>
+                </jvm-options>
+            </jvm>        
+            <system-properties>
+                <!-- zabbix -->
+                <!-- <property name="org.kjkoster.zapcat.zabbix.port" value="6109"/>
+                <property name="org.kjkoster.zapcat.whitelist" value="222.231.44.191"/> -->
+               
+                <!-- jeniffer --> 
+                <!-- <property name="jennifer.config" value="/svc/jennifer4.6.1/agent/nu1.conf"/>
+                <property name="jboss.node.name" value="user111"/>
+                <property name="khan.config.file" value="khan-agent-user111.conf"/>
+                <property name="scouter.config" value="/svc/scouter/agent.java/user111-scouter.conf"/> -->
+				<property name="jboss.bind.address" value="192.168.110.11"/>               
+                <property name="jboss.default.multicast.address" value="224.0.0.11"/>               
+                <property name="jboss.messaging.group.address" value="231.71.1.1"/>               
+                <property name="jboss.modcluster.multicast.address" value="224.11.1.105"/>               
+                <property name="balancer" value="balancer_user1"/>
+                <property name="balancerGroup" value="G_user1"/>                
+		        
+            </system-properties>      
+                   
+            <socket-bindings socket-binding-group="standard-sockets" port-offset="100"/>
+        </server>
+    </servers>
+</host>
